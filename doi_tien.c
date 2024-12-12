@@ -19,15 +19,15 @@ int main() {
     switch(number) {
         case 1:
         tienDaChuyen = soTien * 23.500;
-        printf("%.0f USD = %.3f VND\n", soTien, tienDaChuyen);
+        printf("%.0f USD = %.2f VND\n", soTien, tienDaChuyen);
         break;
         case 2:
         tienDaChuyen = soTien * 25.000;
-        printf("%.0f EUR = %.3f VND\n", soTien, tienDaChuyen);
+        printf("%.0f EUR = %.2f VND\n", soTien, tienDaChuyen);
         break;
         case 3:
         tienDaChuyen = soTien * 28.000;
-        printf("%.0f GBP = %.3f VND\n", soTien, tienDaChuyen);
+        printf("%.0f GBP = %.2f VND\n", soTien, tienDaChuyen);
         break;
         case 4: 
         tienDaChuyen = soTien * 180;
